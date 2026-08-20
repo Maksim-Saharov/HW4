@@ -24,10 +24,10 @@ public class Main {
         }
 
         int age2 = 35;
-        if (age2 > 2 && age2 < 6) {
+        if (age2 >= 2 && age2 <= 6) {
             System.out.println("Если возраст человека равен " + age2 + ", то ему нужно ходить в детский сад");
         }
-        if (age2 > 7 && age2 < 17) {
+        if (age2 >= 7 && age2 <= 17) {
             System.out.println("Если возраст человека равен " + age2 + ", то ему нужно ходить в школу");
         }
         if (age2 >= 18 && age2 <= 24) {
@@ -37,8 +37,8 @@ public class Main {
             System.out.println("Если возраст человека равен " + age2 + ", то ему пора ходить на работу");
         }
 
-        int age3 = 9;
-        if (age3 < 5) {
+        int age3 = 12;
+        if (age3 <= 5) {
             System.out.println("Если возраст ребенка равен " + age3 + ", то ему нельзя кататься на аттракционе");
         }
         if (age3 > 5 && age3 <= 14) {
